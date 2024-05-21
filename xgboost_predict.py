@@ -31,7 +31,3 @@ def create_features(df):
     df['dayofmonth'] = df.index.day
     df['weekofyear'] = df.index.isocalendar().week
     return df
-
-# Example usage
-predictions = get_prediction('1974-09-01', '1976-08-01')
-print(predictions)
